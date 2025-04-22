@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>First Resume</title>
+</head>
+<body>
+    <!-- титульный блок -->
+    <header class="header content">
+        <div class="header-img">
+            <img src="./img/programming-html.jpg" alt="фото">
+        </div>
+        <div class="header-descr">
+            <h1>Александр</h1>
+            <p>
+                Я начинающий фронтенд-разработчик. 
+                Очень люблю спорт, книги, путешествия.
+                Увлекаюсь историей, психологией, програмированнием
+            </p>
+            <h3 class="title-descr">
+                Мои социальные сети
+            </h3>
+            <ul class="list-social">
+                <li> <a href="#">Instagramm</a></li>
+                <li> <a href="#">Telegram</a></li>
+                <li> <a href="#">YouTube</a></li>
+            </ul>
+            <nav class="header-nav">
+                <ul>
+                    <li> <a href="#my-hobby">Хобби</a></li>
+                    <li> <a href="#my-experience">Опыт работы</a></li>
+                    <li> <a href="#my-courses">Мои курсы</a></li>
+                    <li> <a href="#my-contact">Связаться</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Хобби блок -->
+    <div class="hobby-wrap content">
+        <h3 id="my-hobby" class="title-descr">Мои хобби</h3>
+        <ol>
+            <li>Спорт</li>
+            <li>Книги</li>
+            <li>Программирование</li>
+            <li>История</li>
+        </ol>
+    </div>
+
+    <!-- Блок опыт работы -->
+    <div class="experience-wrap content">
+        <h3 id="my-experience" class="title-descr">Опыт работы</h3>
+        <table class="table">
+            <tr>
+               <td>Result School</td>
+               <td>CEO</td>
+               <td>2025 - сейчас</td>
+            </tr>
+            <tr>
+               <td>Result School</td>
+               <td>CEO</td>
+               <td>2025 - сейчас</td>
+            </tr>
+            <tr>
+               <td>Result School</td>
+               <td>CEO</td>
+               <td>2025 - сейчас</td>
+            </tr>
+            <tr>
+               <td>Result School</td>
+               <td>CEO</td>
+               <td>2025 - сейчас</td>
+            </tr>
+            <tr>
+               <td>Result School</td>
+               <td>CEO</td>
+               <td>2025 - сейчас</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Блок Мом курсы -->
+    <div class="courses content">
+        <h3 id="my-courses" class="title-descr">Мои курсы</h3>
+        <p>Получение профессии Frontend разработчика</p>
+        <hr>
+        <p>Все курсы</p>
+        <hr>
+    </div>
+
+    <!-- Блок Обратная связь -->
+    <div class="contact content">
+        <h3 id="my-contact" class="title-descr">Связаться со мной</h3>
+        <form>
+            <div class="input">
+                <div class="name">
+                    <label for="name">Ваше имя</label>
+                    <br>
+                    <input type="text" id="name" placeholder="Введите имя"> 
+                    <hr>
+                </div>
+                <div class="email">
+                    <label for="email">Ваш Email</label>
+                    <br>
+                    <input type="email" id="email" placeholder="Введите почту"> 
+                    <hr>
+                </div>
+            </div>
+            <label for="message">Ваше сообщение</label>
+            <br>
+            <textarea name="message" id="message" placeholder="Ваше сообщение"></textarea>
+            
+            <button type="submit">Отправить сообщение</button>
+        </form>
+    </div>
+</body>
+</html>

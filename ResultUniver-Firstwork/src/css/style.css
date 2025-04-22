@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    width: 100vw;
+    height: 1360px;
+    background-color: #d5d0d0;
+}
+/* общий размер и стили контента */
+.content {
+    max-width: 800px;
+    height: auto;
+    margin: 20px auto;
+    padding: 40px 30px;
+}
+.title-descr{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+/* титульный блок*/
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+}
+.header-img {
+    width: 200px;
+    height: 260px;
+    overflow: hidden;
+    box-shadow: 7px 8px 10px 0px #00000078;
+    border-radius: 14px;
+}
+.header-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.header-descr {
+    width: 580px;
+    height: auto;
+    padding-left: 12px;
+}
+.header-descr h1 {
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.header-descr p {
+    font-size: 20px;
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: 25px;
+}
+
+/* соцсети */
+.list-social {
+    list-style: none;
+    display: flex;
+    margin-bottom: 20px;
+}
+.list-social li{
+    margin-right: 8px;
+    padding-right: 8px;
+    border-right: 1px solid black;
+}
+.list-social li:last-child{
+    margin-right: 0;
+    border: none;
+}
+.list-social a {
+    color: #624a4a;
+    font-size: 17px;
+}
+.list-social a:hover {
+    color: aliceblue;
+}
+
+/* навигация */
+.header-nav{
+    width: 66%;
+    background-color: rgb(81, 84, 84);
+}
+.header-nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.header-nav li{
+    padding: 8px;
+}
+.header-nav li:hover {
+    background-color: #302f2f;
+}
+.header-nav a {
+    color: rgb(206, 207, 202);
+}
+
+/* блок Хобби */
+.hobby-wrap {
+    background-color: #f2e37e;
+    border-radius: 10px;
+    box-shadow: 7px 8px 10px 0px #00000078;
+}
+.hobby-wrap ol {
+    padding-left: 15px;
+}
+.hobby-wrap li {
+    margin-bottom: 10px;
+}
+
+/* блок мой опыт */
+.experience-wrap {
+    width: 100%;
+    background-color: #fb9292;
+    border-radius: 10px;
+    box-shadow: 7px 8px 10px 0px #00000078;
+}
+.table {
+    width: 50%;
+}
+.experience-wrap td {
+    text-align: center;
+    color: #444242;
+    line-height: 1.6;
+}
+.experience-wrap td:first-child {
+    text-align: left;
+    font-weight: 700;
+    color: #2d2b2b;
+}
+
+/* блок мои курсы */
+.courses {
+    background-color: #d0e1a6;
+    border-radius: 10px;
+    box-shadow: 7px 8px 10px 0px #00000078;
+}
+.courses hr {
+    margin: 4px 0 10px 0;
+    border: none;
+    height: 1px;
+    background-color: #949393;
+}
+
+/* блок обратная связь */
+.contact {
+    padding: 0;
+}
+.contact h3 {
+    text-align: center;
+    margin-bottom: 26px;
+}
+.input {
+    display: flex;
+    margin-bottom: 12px;
+}
+.input hr {
+    border: none;
+    height: 1px;
+    background-color: #838383;
+    margin-bottom: 12px;
+}
+.name, .email {
+    width: 48%;
+}
+.email {
+    margin-left: 32px;
+}
+.input input {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+.input input:focus {
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+.input label {
+    margin-bottom: 8px;
+}
+.contact textarea {
+    width: 100%;
+    height: 100px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid;
+    padding: 6px 0;
+    margin-bottom: 8px;
+}
+.contact textarea:focus {
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.contact button {
+    background-color: black;
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+}
